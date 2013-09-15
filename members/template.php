@@ -8,8 +8,12 @@ else
 // send them back to the Password challenge and then bring them back here
 	{
 		$_SESSION['return']=$_SERVER['REDIRECT_SCRIPT_URI'];
-//		$_SESSION['return'] ="ga-al-anon.org/members/template.php" ;
-		header( 'Location: http://www.ga-al-anon.org/members/index.php' ) ;
+		if (stristr(strtolower($_SERVER['REDIRECT_SCRIPT_URI']),"www.ga-al-anon.org")){
+			header( 'Location: http://www.ga-al-anon.org/members/index.php' ) ;
+		} else {
+			header( 'Location: http://ga-al-anon.org/members/index.php' ) ;
+		}
+		
 //		die();
 	}
 ?><!doctype html>
@@ -17,9 +21,7 @@ else
 <head>
 <meta charset="utf-8">  
 <title>GA Al-Anon/Alateen Members Area</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen"/>
 <body>
 
 <!-- This is dummy content - replace with your real page -->
