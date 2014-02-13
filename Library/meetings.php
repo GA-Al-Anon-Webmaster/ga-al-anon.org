@@ -13,7 +13,7 @@
 function mmLoadMenus() {
   if (window.mm_menu_0522211920_0) return;
                 window.mm_menu_0522211920_0 = new Menu("root",113,20,"Verdana, Arial, Helvetica, sans-serif",14,"#FFFFFF","#ffffff","#0033FF","#666666","left","middle",3,0,1000,-5,7,true,true,true,0,true,true);
-  mm_menu_0522211920_0.addMenuItem("View Districts","location='area11_mtgs_by_dist.html'");
+  mm_menu_0522211920_0.addMenuItem("ViewÂ Districts","location='area11_mtgs_by_dist.html'");
   mm_menu_0522211920_0.addMenuItem("District&nbsp;11","location='area11_mtgs_by_dist.html#11'");
   mm_menu_0522211920_0.addMenuItem("District&nbsp;12","location='area11_mtgs_by_dist.html#12'");
   mm_menu_0522211920_0.addMenuItem("District&nbsp;13","location='area11_mtgs_by_dist.html#13'");
@@ -152,7 +152,10 @@ function MM_swapImage() { //v3.0
  
 </script>
 
-<meta name="description" content="Newsletters"><meta name="keywords" content="Newsletters"></head><body leftmargin="0" topmargin="0" onload="MM_preloadImages('../images/sidenavbar2_r2_c2_over.gif','../images/sidenavbar2_r3_c2_over.gif','../images/sidenavbar2_r4_c2_over.gif','../images/sidenavbar2_r5_c2_over.gif','../images/sidenavbar2_r6_c2_over.gif','../images/sidenavbar2_r7_c2_over.gif','../images/sidenavbar2_r8_c2_over.gif','../images/sidenavbar2_r9_c2_over.gif','../images/sidenavbar2_r10_c2_over.gif','../images/sidenavbar2_r11_c2_over.gif','../images/sidenavbar2_r12_c2_over.gif','../images/sidenavbar2_r14_c2_over.gif','../images/topnavbar1_r2_c2_over.gif','../images/topnavbar1_r2_c4_over.gif','/images/topnavbar2_r2_c2_f2.gif','../images/sidenavbar2_r13_c2_over.gif','../images/sidenavbar2_r16_c2_over.gif')" bgcolor="#ffffff" marginheight="0" marginwidth="0">
+
+</head>
+
+<body leftmargin="0" topmargin="0" onload="MM_preloadImages('../images/sidenavbar2_r2_c2_over.gif','../images/sidenavbar2_r3_c2_over.gif','../images/sidenavbar2_r4_c2_over.gif','../images/sidenavbar2_r5_c2_over.gif','../images/sidenavbar2_r6_c2_over.gif','../images/sidenavbar2_r7_c2_over.gif','../images/sidenavbar2_r8_c2_over.gif','../images/sidenavbar2_r9_c2_over.gif','../images/sidenavbar2_r10_c2_over.gif','../images/sidenavbar2_r11_c2_over.gif','../images/sidenavbar2_r12_c2_over.gif','../images/sidenavbar2_r14_c2_over.gif','../images/topnavbar1_r2_c2_over.gif','../images/topnavbar1_r2_c4_over.gif','/images/topnavbar2_r2_c2_f2.gif','../images/sidenavbar2_r13_c2_over.gif','../images/sidenavbar2_r16_c2_over.gif')" bgcolor="#ffffff" marginheight="0" marginwidth="0">
 <table border="0" cellpadding="0" cellspacing="0" height="661" width="643">
   <tbody><tr height="709"> 
     <td align="left" height="709" valign="top" width="18%">&nbsp;</td>
@@ -338,6 +341,7 @@ function MM_swapImage() { //v3.0
           <td>&nbsp;</td>
         </tr>
       </tbody></table> 
+
       <table border="0" cellpadding="0" cellspacing="0" height="555" width="850">
         <tbody><tr> 
           <td width="">&nbsp;</td>
@@ -360,8 +364,12 @@ function MM_swapImage() { //v3.0
 <div align="center">
                                       <p align="center"><font color="#0033ff" face="Arial, Helvetica, sans-serif" size="4">Georgia 
                                         Al-Anon / Alateen Meetings</font></p>
-                                      <p align="center"><font color="#0033ff" face="Arial, Helvetica, sans-serif" size="4"><strong><font color="#cc0000">AFG 
-                                        = Al-Anon Family Groups</font></strong></font></p>
+                                      <p align="center"><font color="#0033ff" face="Arial, Helvetica, sans-serif" size="4">
+	<strong><font color="#cc0000">
+		AFG = Al-Anon Family Groups <br><br>
+		A "Closed" meeting is for anyone who is troubled by someone else's drinking. <br><br>
+		An "Open" meeting also welcomes guests, students, and interested professionals who want to learn by observing an Al-Anon meeting. Observers attending open Al-Anon meetings are requested to abide by the principles that guide participation in all Al-Anon Family Group meetings, most especially the principles of confidentiality and anonymity that protect its members.
+	</font></strong></font></p>
                                       <p align="center"><font color="#0033ff" face="Arial, Helvetica, sans-serif" size="4"><strong><font color="#cc0000"><br>
                                         </font></strong>
 <font color="#cc0000"><font color="#009900" size="2"><em><strong>
@@ -415,50 +423,28 @@ World Service Office Meeting Locator</a></font></strong></em></font></font></fon
                           <td align="left" bgcolor="#ffffcc" valign="top"> <form name="form1">
                               <div align="center"> 
                                 <select name="dist_meetings" size="10" id="dist_meetings" onchange="MM_jumpMenu('parent',this,0)">
-                                  <option value="../district.php">Select a district 
-                                  </option>
-                                  <option value="../district-number.php?district=1">District 
-                                  1</option>
-                                  <option value="../district-number.php?district=2">District 
-                                  2</option>
-                                  <option value="../district-number.php?district=3">District 
-                                  3</option>
-                                  <option value="../district-number.php?district=4">District 
-                                  4</option>
-                                  <option value="../district-number.php?district=5">District 
-                                  5</option>
-                                  <option value="../district-number.php?district=6">District 
-                                  6</option>
-                                  <option value="../district-number.php?district=7">District 
-                                  7</option>
-                                  <option value="../district-number.php?district=8">District 
-                                  8</option>
-                                  <option value="../district-number.php?district=9">District 
-                                  9</option>
-                                  <option value="../district-number.php?district=10">District 
-                                  10</option>
-                                  <option value="../district-number.php?district=11">District 
-                                  11</option>
-                                  <option value="../district-number.php?district=12">District 
-                                  12</option>
-                                  <option value="../district-number.php?district=13">District 
-                                  13</option>
-                                  <option value="../district-number.php?district=14">District 
-                                  14</option>
-                                  <option value="../district-number.php?district=15">District 
-                                  15</option>
-                                  <option value="../district-number.php?district=16">District 
-                                  16</option>
-                                  <option value="../district-number.php?district=17">District 
-                                  17</option>
-                                  <option value="../district-number.php?district=18">District 
-                                  18</option>
-                                  <option value="../district-number.php?district=19">District 
-                                  19</option>
-                                  <option value="../district-number.php?district=20">District 
-                                  20</option>
-                                  <option value="../district-number.php?district=21">District 
-                                  21</option>
+                                  <option value="../district.php">Select a district </option>
+                                  <option value="../district-number.php?district=1">District 1</option>
+                                  <option value="../district-number.php?district=2">District 2</option>
+                                  <option value="../district-number.php?district=3">District 3</option>
+                                  <option value="../district-number.php?district=4">District 4</option>
+                                  <option value="../district-number.php?district=5">District 5</option>
+                                  <option value="../district-number.php?district=6">District 6</option>
+                                  <option value="../district-number.php?district=7">District 7</option>
+                                  <option value="../district-number.php?district=8">District 8</option>
+                                  <option value="../district-number.php?district=9">District 9</option>
+                                  <option value="../district-number.php?district=10">District 10</option>
+                                  <option value="../district-number.php?district=11">District 11</option>
+                                  <option value="../district-number.php?district=12">District 12</option>
+                                  <option value="../district-number.php?district=13">District 13</option>
+                                  <option value="../district-number.php?district=14">District 14</option>
+                                  <option value="../district-number.php?district=15">District 15</option>
+                                  <option value="../district-number.php?district=16">District 16</option>
+                                  <option value="../district-number.php?district=17">District 17</option>
+                                  <option value="../district-number.php?district=18">District 18</option>
+                                  <option value="../district-number.php?district=19">District 19</option>
+                                  <option value="../district-number.php?district=20">District 20</option>
+                                  <option value="../district-number.php?district=21">District 21</option>
 								  
                                 </select>
                               </div>
@@ -542,195 +528,196 @@ World Service Office Meeting Locator</a></font></strong></em></font></font></fon
   
 </map>
 <h3>&nbsp; </h3>
-<map name="Map"><area shape="rect" coords="13,80,250,143" href="../district-number.php?district=1"><area shape="rect" coords="17,148,77,188" href="../district-number.php?district=1"><area shape="rect" coords="231,228,252,242" href="../district-number.php?district=18"><area shape="rect" coords="263,225,305,236" href="../district-number.php?district=18"><area shape="rect" coords="254,233,293,256" href="../district-number.php?district=19"><area shape="rect" coords="237,256,295,277" href="../district-number.php?district=19"><area shape="rect" coords="238,244,253,256" href="../district-number.php?district=19"><area shape="rect" coords="245,279,283,291" href="../district-number.php?district=19"><area shape="rect" coords="252,291,276,301" href="../district-number.php?district=19"><area shape="rect" coords="325,214,421,241" href="../district-number.php?district=2"><area shape="rect" coords="306,229,329,241" href="../district-number.php?district=2"><area shape="rect" coords="296,243,503,276" href="../district-number.php?district=2"><area shape="rect" coords="424,222,482,241" href="../district-number.php?district=2"><area shape="rect" coords="285,279,551,310" href="../district-number.php?district=2"><area shape="rect" coords="506,269,520,278" href="../district-number.php?district=2"><area shape="rect" coords="447,308,572,326" href="../district-number.php?district=2"><area shape="rect" coords="256,306,285,322" href="../district-number.php?district=10"><area shape="rect" coords="241,323,271,340" href="../district-number.php?district=2"><area shape="rect" coords="287,310,370,354" href="../district-number.php?district=2"><area shape="rect" coords="273,327,289,344" href="../district-number.php?district=2"><area shape="rect" coords="258,344,287,353" href="../district-number.php?district=2"><area shape="rect" coords="277,355,310,365" href="../district-number.php?district=2"><area shape="rect" coords="335,353,378,362" href="../district-number.php?district=2"><area shape="poly" coords="372,321" href="#"><area shape="rect" coords="89,149,222,196" href="../district-number.php?district=1"><area shape="rect" coords="229,146,323,226" href="../district-number.php?district=18"><area shape="rect" coords="253,86,418,141" href="../district-number.php?district=18"><area shape="rect" coords="331,145,422,214" href="../district-number.php?district=18"><area shape="rect" coords="425,174,481,223" href="../district-number.php?district=2"><area shape="rect" coords="28,192,223,234" href="../district-number.php?district=17"><area shape="rect" coords="33,240,94,307" href="../district-number.php?district=17"><area shape="rect" coords="97,236,195,242" href="../district-number.php?district=17"><area shape="rect" coords="174,245,200,264" href="../district-number.php?district=21"><area shape="rect" coords="214,266,227,279" href="../district-number.php?district=9"><area shape="rect" coords="205,235,236,266" href="../district-number.php?district=9"><area shape="rect" coords="195,275,210,297" href="../district-number.php?district=13"><area shape="rect" coords="97,244,175,285" href="../district-number.php?district=15"><area shape="rect" coords="179,270,196,288" href="../district-number.php?district=15"><area shape="rect" coords="96,287,167,313" href="../district-number.php?district=15"><area shape="rect" coords="41,311,117,355" href="../district-number.php?district=15"><area shape="rect" coords="120,316,151,332" href="../district-number.php?district=15"><area shape="rect" coords="170,288,184,300" href="../district-number.php?district=15"><area shape="rect" coords="211,285,226,319" href="../district-number.php?district=13"><area shape="rect" coords="231,279,245,294" href="../district-number.php?district=10"><area shape="rect" coords="230,296,254,325" href="../district-number.php?district=10"><area shape="poly" coords="371,314" href="#"><area shape="poly" coords="373,312,373,313" href="#"><area shape="poly" coords="372,351,373,350" href="#"><area shape="poly" coords="388,351,388,349" href="#"><area shape="poly" coords="368,311" href="#"><area shape="rect" coords="368,318,383,351" href="../district-number.php?district=2"><area shape="rect" coords="396,359,629,376" href="../district-number.php?district=11"><area shape="rect" coords="454,328,597,357" href="../district-number.php?district=11"><area shape="rect" coords="183,298,207,319" href="../district-number.php?district=12"><area shape="rect" coords="166,305,181,328" href="../district-number.php?district=12"><area shape="rect" coords="152,317,165,328" href="../district-number.php?district=12"><area shape="rect" coords="183,319,190,326" href="../district-number.php?district=12"><area shape="rect" coords="195,325,239,354" href="../district-number.php?district=14"><area shape="rect" coords="200,356,280,385" href="../district-number.php?district=14"><area shape="rect" coords="241,342,254,352" href="../district-number.php?district=14"><area shape="rect" coords="195,386,391,410" href="../district-number.php?district=14"><area shape="rect" coords="180,389,194,406" href="../district-number.php?district=14"><area shape="rect" coords="311,355,333,365" href="../district-number.php?district=14"><area shape="rect" coords="280,366,397,386" href="../district-number.php?district=14"><area shape="rect" coords="380,357,396,364" href="../district-number.php?district=14"><area shape="rect" coords="396,376,407,393" href="../district-number.php?district=14"><area shape="rect" coords="392,397,637,413" href="../district-number.php?district=11"><area shape="rect" coords="419,415,442,427" href="../district-number.php?district=11"><area shape="rect" coords="408,377,626,400" href="../district-number.php?district=11"><area shape="rect" coords="460,404,486,429" href="../district-number.php?district=4"><area shape="rect" coords="119,332,197,389" href="../district-number.php?district=16"><area shape="rect" coords="47,358,117,393" href="../district-number.php?district=16"><area shape="rect" coords="118,389,181,401" href="../district-number.php?district=16"><area shape="rect" coords="50,394,114,463" href="../district-number.php?district=16"><area shape="rect" coords="113,400,178,575" href="../district-number.php?district=5"><area shape="rect" coords="65,466,115,573" href="../district-number.php?district=5"><area shape="rect" coords="178,407,485,447" href="../district-number.php?district=4"><area shape="rect" coords="398,403,460,415" href="../district-number.php?district=4"><area shape="rect" coords="446,419,460,482" href="../district-number.php?district=4"><area shape="rect" coords="424,430,453,473" href="../district-number.php?district=4"><area shape="rect" coords="463,431,513,480" href="../district-number.php?district=4"><area shape="rect" coords="487,412,504,422" href="../district-number.php?district=11"><area shape="rect" coords="484,423,500,479" href="../district-number.php?district=4"><area shape="rect" coords="501,439,514,476" href="../district-number.php?district=4"><area shape="rect" coords="501,424,510,435" href="../district-number.php?district=11"><area shape="rect" coords="506,414,656,425" href="../district-number.php?district=11"><area shape="rect" coords="516,425,581,475" href="../district-number.php?district=11"><area shape="rect" coords="584,426,682,446" href="../district-number.php?district=11"><area shape="rect" coords="582,444,654,457" href="../district-number.php?district=11"><area shape="rect" coords="519,475,540,483" href="../district-number.php?district=11"><area shape="rect" coords="581,455,736,571" href="../district-number.php?district=3"><area shape="rect" coords="653,444,694,458" href="../district-number.php?district=13"><area shape="rect" coords="737,540,756,643" href="../district-number.php?district=3"><area shape="rect" coords="758,602,806,662" href="../district-number.php?district=3"><area shape="rect" coords="649,573,736,654" href="../district-number.php?district=3"><area shape="rect" coords="658,653,754,677" href="../district-number.php?district=3"><area shape="rect" coords="739,645,763,657" href="../district-number.php?district=3"><area shape="rect" coords="696,677,756,691" href="../district-number.php?district=3"><area shape="rect" coords="604,578,649,614" href="../district-number.php?district=3"><area shape="rect" coords="542,475,571,552" href="../district-number.php?district=3"><area shape="rect" coords="570,479,581,540" href="../district-number.php?district=3"><area shape="rect" coords="571,552,582,574" href="../district-number.php?district=3"><area shape="rect" coords="243,446,481,505" href="../district-number.php?district=4"><area shape="rect" coords="205,480,240,497" href="../district-number.php?district=5"><area shape="rect" coords="180,480,205,501" href="../district-number.php?district=5"><area shape="rect" coords="179,501,189,521" href="../district-number.php?district=5"><area shape="rect" coords="178,524,190,592" href="../district-number.php?district=5"><area shape="rect" coords="154,577,176,591" href="../district-number.php?district=5"><area shape="rect" coords="190,545,219,594" href="../district-number.php?district=5"><area shape="rect" coords="191,502,486,547" href="../district-number.php?district=4"><area shape="rect" coords="487,537,534,689" href="../district-number.php?district=8"><area shape="rect" coords="220,548,281,582" href="../district-number.php?district=4"><area shape="rect" coords="287,548,337,571" href="../district-number.php?district=4"><area shape="rect" coords="349,546,390,566" href="../district-number.php?district=4"><area shape="rect" coords="414,546,476,580" href="../district-number.php?district=4"><area shape="rect" coords="390,548,412,652" href="../district-number.php?district=8"><area shape="rect" coords="412,582,491,660" href="../district-number.php?district=8"><area shape="rect" coords="478,549,486,580" href="../district-number.php?district=8"><area shape="rect" coords="534,569,606,662" href="../district-number.php?district=8"><area shape="rect" coords="608,615,619,655" href="../district-number.php?district=8"><area shape="rect" coords="621,616,643,629" href="../district-number.php?district=8"><area shape="rect" coords="621,631,650,675" href="../district-number.php?district=6"><area shape="rect" coords="606,655,621,668" href="../district-number.php?district=6"><area shape="rect" coords="650,658,657,699" href="../district-number.php?district=6"><area shape="rect" coords="626,675,653,689" href="../district-number.php?district=6"><area shape="rect" coords="660,678,694,706" href="../district-number.php?district=6"><area shape="rect" coords="338,550,352,652" href="../district-number.php?district=8"><area shape="rect" coords="353,567,390,651" href="../district-number.php?district=8"><area shape="rect" coords="81,573,84,574" href="#"><area shape="rect" coords="57,574,148,711" href="../district-number.php?district=7"><area shape="rect" coords="149,594,340,648" href="../district-number.php?district=7"><area shape="rect" coords="219,580,339,593" href="../district-number.php?district=7"><area shape="rect" coords="281,570,340,581" href="../district-number.php?district=7"><area shape="rect" coords="274,648,341,658" href="../district-number.php?district=7"><area shape="rect" coords="119,712,255,722" href="../district-number.php?district=7"><area shape="rect" coords="147,648,258,706" href="../district-number.php?district=7"><area shape="rect" coords="149,705,258,714" href="../district-number.php?district=7"><area shape="rect" coords="258,649,268,657" href="../district-number.php?district=7"><area shape="rect" coords="291,659,429,693" href="../district-number.php?district=7"><area shape="rect" coords="344,651,410,661" href="../district-number.php?district=7"><area shape="rect" coords="429,658,487,735" href="../district-number.php?district=8"><area shape="rect" coords="420,695,428,733" href="../district-number.php?district=8"><area shape="rect" coords="487,687,497,739" href="../district-number.php?district=8"><area shape="rect" coords="412,716,421,735" href="../district-number.php?district=8"><area shape="rect" coords="507,516,542,538" href="../district-number.php?district=3"><area shape="rect" coords="531,537,546,547" href="../district-number.php?district=3"><area shape="rect" coords="539,549,567,569" href="../district-number.php?district=3"><area shape="rect" coords="525,487,541,517" href="../district-number.php?district=3"><area shape="rect" coords="518,499,527,514" href="../district-number.php?district=3"><area shape="rect" coords="483,479,518,512" href="../district-number.php?district=4"><area shape="rect" coords="489,510,506,535" href="../district-number.php?district=4"><area shape="rect" coords="178,449,241,479" href="../district-number.php?district=5"><area shape="rect" coords="387,311,453,357" href="../district-number.php?district=11"><area shape="rect" coords="440,760,442,761" href="#"><area shape="rect" coords="405,721,414,734" href="../district-number.php?district=8"><area shape="rect" coords="455,733,487,740" href="../district-number.php?district=8"><area shape="rect" coords="535,660,582,695" href="../district-number.php?district=8"><area shape="rect" coords="546,695,585,709" href="../district-number.php?district=8"><area shape="rect" coords="585,665,623,721" href="../district-number.php?district=5"><area shape="rect" coords="562,709,583,721" href="../district-number.php?district=8"><area shape="rect" coords="623,689,663,733" href="../district-number.php?district=6"><area shape="rect" coords="594,723,631,787" href="../district-number.php?district=6"><area shape="rect" coords="695,691,740,712" href="../district-number.php?district=6"><area shape="rect" coords="664,706,730,799" href="../district-number.php?district=6"><area shape="rect" coords="632,732,665,853" href="../district-number.php?district=6"><area shape="rect" coords="665,799,701,862" href="../district-number.php?district=6"><area shape="rect" coords="499,690,546,878" href="../district-number.php?district=6"><area shape="rect" coords="545,708,563,884" href="../district-number.php?district=6"><area shape="rect" coords="563,724,595,931" href="../district-number.php?district=6"><area shape="rect" coords="596,788,633,847" href="../district-number.php?district=6"><area shape="rect" coords="259,657,292,879" href="../district-number.php?district=20"><area shape="rect" coords="296,694,357,866" href="../district-number.php?district=20"><area shape="rect" coords="356,695,418,722" href="../district-number.php?district=7"><area shape="rect" coords="358,724,406,766" href="../district-number.php?district=6"><area shape="rect" coords="409,739,500,772" href="../district-number.php?district=6"><area shape="rect" coords="373,766,407,797" href="../district-number.php?district=6"><area shape="rect" coords="357,767,374,867" href="../district-number.php?district=20"><area shape="rect" coords="407,774,501,819" href="../district-number.php?district=6"><area shape="rect" coords="374,801,404,871" href="../district-number.php?district=20"><area shape="rect" coords="403,816,427,841" href="../district-number.php?district=20"><area shape="rect" coords="429,820,499,875" href="../district-number.php?district=6"><area shape="rect" coords="406,840,427,870" href="../district-number.php?district=6"><area shape="rect" coords="70,716,118,852" href="../district-number.php?district=20"><area shape="rect" coords="63,718,73,776" href="../district-number.php?district=20"><area shape="rect" coords="118,724,259,867" href="../district-number.php?district=20"><area shape="rect" coords="76,146,91,191" href="../district-number.php?district=17"><area shape="rect" coords="199,238,205,269" href="../district-number.php?district=9"><area shape="rect" coords="123,141,230,150" href="../district-number.php?district=1">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</map>
+<map name="Map">
+	<area shape="rect" coords="13,80,250,143" href="../district-number.php?district=1">
+	<area shape="rect" coords="17,148,77,188" href="../district-number.php?district=1">
+	<area shape="rect" coords="231,228,252,242" href="../district-number.php?district=18">
+	<area shape="rect" coords="263,225,305,236" href="../district-number.php?district=18">
+	<area shape="rect" coords="254,233,293,256" href="../district-number.php?district=19">
+	<area shape="rect" coords="237,256,295,277" href="../district-number.php?district=19">
+	<area shape="rect" coords="238,244,253,256" href="../district-number.php?district=19">
+	<area shape="rect" coords="245,279,283,291" href="../district-number.php?district=19">
+	<area shape="rect" coords="252,291,276,301" href="../district-number.php?district=19">
+	<area shape="rect" coords="325,214,421,241" href="../district-number.php?district=2">
+	<area shape="rect" coords="306,229,329,241" href="../district-number.php?district=2">
+	<area shape="rect" coords="296,243,503,276" href="../district-number.php?district=2">
+	<area shape="rect" coords="424,222,482,241" href="../district-number.php?district=2">
+	<area shape="rect" coords="285,279,551,310" href="../district-number.php?district=2">
+	<area shape="rect" coords="506,269,520,278" href="../district-number.php?district=2">
+	<area shape="rect" coords="447,308,572,326" href="../district-number.php?district=2">
+	<area shape="rect" coords="256,306,285,322" href="../district-number.php?district=10">
+	<area shape="rect" coords="241,323,271,340" href="../district-number.php?district=2">
+	<area shape="rect" coords="287,310,370,354" href="../district-number.php?district=2">
+	<area shape="rect" coords="273,327,289,344" href="../district-number.php?district=2">
+	<area shape="rect" coords="258,344,287,353" href="../district-number.php?district=2">
+	<area shape="rect" coords="277,355,310,365" href="../district-number.php?district=2">
+	<area shape="rect" coords="335,353,378,362" href="../district-number.php?district=2">
+	<area shape="poly" coords="372,321" href="#">
+	<area shape="rect" coords="89,149,222,196" href="../district-number.php?district=1">
+	<area shape="rect" coords="229,146,323,226" href="../district-number.php?district=18">
+	<area shape="rect" coords="253,86,418,141" href="../district-number.php?district=18">
+	<area shape="rect" coords="331,145,422,214" href="../district-number.php?district=18">
+	<area shape="rect" coords="425,174,481,223" href="../district-number.php?district=2">
+	<area shape="rect" coords="28,192,223,234" href="../district-number.php?district=17">
+	<area shape="rect" coords="33,240,94,307" href="../district-number.php?district=17">
+	<area shape="rect" coords="97,236,195,242" href="../district-number.php?district=17">
+	<area shape="rect" coords="174,245,200,264" href="../district-number.php?district=21">
+	<area shape="rect" coords="214,266,227,279" href="../district-number.php?district=9">
+	<area shape="rect" coords="205,235,236,266" href="../district-number.php?district=9">
+	<area shape="rect" coords="195,275,210,297" href="../district-number.php?district=13">
+	<area shape="rect" coords="97,244,175,285" href="../district-number.php?district=15">
+	<area shape="rect" coords="179,270,196,288" href="../district-number.php?district=15">
+	<area shape="rect" coords="96,287,167,313" href="../district-number.php?district=15">
+	<area shape="rect" coords="41,311,117,355" href="../district-number.php?district=15">
+	<area shape="rect" coords="120,316,151,332" href="../district-number.php?district=15">
+	<area shape="rect" coords="170,288,184,300" href="../district-number.php?district=15">
+	<area shape="rect" coords="211,285,226,319" href="../district-number.php?district=13">
+	<area shape="rect" coords="231,279,245,294" href="../district-number.php?district=10">
+	<area shape="rect" coords="230,296,254,325" href="../district-number.php?district=10">
+	<area shape="poly" coords="371,314" href="#">
+	<area shape="poly" coords="373,312,373,313" href="#">
+	<area shape="poly" coords="372,351,373,350" href="#">
+	<area shape="poly" coords="388,351,388,349" href="#">
+	<area shape="poly" coords="368,311" href="#">
+	<area shape="rect" coords="368,318,383,351" href="../district-number.php?district=2">
+	<area shape="rect" coords="396,359,629,376" href="../district-number.php?district=11">
+	<area shape="rect" coords="454,328,597,357" href="../district-number.php?district=11">
+	<area shape="rect" coords="183,298,207,319" href="../district-number.php?district=12">
+	<area shape="rect" coords="166,305,181,328" href="../district-number.php?district=12">
+	<area shape="rect" coords="152,317,165,328" href="../district-number.php?district=12">
+	<area shape="rect" coords="183,319,190,326" href="../district-number.php?district=12">
+	<area shape="rect" coords="195,325,239,354" href="../district-number.php?district=14">
+	<area shape="rect" coords="200,356,280,385" href="../district-number.php?district=14">
+	<area shape="rect" coords="241,342,254,352" href="../district-number.php?district=14">
+	<area shape="rect" coords="195,386,391,410" href="../district-number.php?district=14">
+	<area shape="rect" coords="180,389,194,406" href="../district-number.php?district=14">
+	<area shape="rect" coords="311,355,333,365" href="../district-number.php?district=14">
+	<area shape="rect" coords="280,366,397,386" href="../district-number.php?district=14">
+	<area shape="rect" coords="380,357,396,364" href="../district-number.php?district=14">
+	<area shape="rect" coords="396,376,407,393" href="../district-number.php?district=14">
+	<area shape="rect" coords="392,397,637,413" href="../district-number.php?district=11">
+	<area shape="rect" coords="419,415,442,427" href="../district-number.php?district=11">
+	<area shape="rect" coords="408,377,626,400" href="../district-number.php?district=11">
+	<area shape="rect" coords="460,404,486,429" href="../district-number.php?district=4">
+	<area shape="rect" coords="119,332,197,389" href="../district-number.php?district=16">
+	<area shape="rect" coords="47,358,117,393" href="../district-number.php?district=16">
+	<area shape="rect" coords="118,389,181,401" href="../district-number.php?district=16">
+	<area shape="rect" coords="50,394,114,463" href="../district-number.php?district=16">
+	<area shape="rect" coords="113,400,178,575" href="../district-number.php?district=5">
+	<area shape="rect" coords="65,466,115,573" href="../district-number.php?district=5">
+	<area shape="rect" coords="178,407,485,447" href="../district-number.php?district=4">
+	<area shape="rect" coords="398,403,460,415" href="../district-number.php?district=4">
+	<area shape="rect" coords="446,419,460,482" href="../district-number.php?district=4">
+	<area shape="rect" coords="424,430,453,473" href="../district-number.php?district=4">
+	<area shape="rect" coords="463,431,513,480" href="../district-number.php?district=4">
+	<area shape="rect" coords="487,412,504,422" href="../district-number.php?district=11">
+	<area shape="rect" coords="484,423,500,479" href="../district-number.php?district=4">
+	<area shape="rect" coords="501,439,514,476" href="../district-number.php?district=4">
+	<area shape="rect" coords="501,424,510,435" href="../district-number.php?district=11">
+	<area shape="rect" coords="506,414,656,425" href="../district-number.php?district=11">
+	<area shape="rect" coords="516,425,581,475" href="../district-number.php?district=11">
+	<area shape="rect" coords="584,426,682,446" href="../district-number.php?district=11">
+	<area shape="rect" coords="582,444,654,457" href="../district-number.php?district=11">
+	<area shape="rect" coords="519,475,540,483" href="../district-number.php?district=11">
+	<area shape="rect" coords="581,455,736,571" href="../district-number.php?district=3">
+	<area shape="rect" coords="653,444,694,458" href="../district-number.php?district=13">
+	<area shape="rect" coords="737,540,756,643" href="../district-number.php?district=3">
+	<area shape="rect" coords="758,602,806,662" href="../district-number.php?district=3">
+	<area shape="rect" coords="649,573,736,654" href="../district-number.php?district=3">
+	<area shape="rect" coords="658,653,754,677" href="../district-number.php?district=3">
+	<area shape="rect" coords="739,645,763,657" href="../district-number.php?district=3">
+	<area shape="rect" coords="696,677,756,691" href="../district-number.php?district=3">
+	<area shape="rect" coords="604,578,649,614" href="../district-number.php?district=3">
+	<area shape="rect" coords="542,475,571,552" href="../district-number.php?district=3">
+	<area shape="rect" coords="570,479,581,540" href="../district-number.php?district=3">
+	<area shape="rect" coords="571,552,582,574" href="../district-number.php?district=3">
+	<area shape="rect" coords="243,446,481,505" href="../district-number.php?district=4">
+	<area shape="rect" coords="205,480,240,497" href="../district-number.php?district=5">
+	<area shape="rect" coords="180,480,205,501" href="../district-number.php?district=5">
+	<area shape="rect" coords="179,501,189,521" href="../district-number.php?district=5">
+	<area shape="rect" coords="178,524,190,592" href="../district-number.php?district=5">
+	<area shape="rect" coords="154,577,176,591" href="../district-number.php?district=5">
+	<area shape="rect" coords="190,545,219,594" href="../district-number.php?district=5">
+	<area shape="rect" coords="191,502,486,547" href="../district-number.php?district=4">
+	<area shape="rect" coords="487,537,534,689" href="../district-number.php?district=8">
+	<area shape="rect" coords="220,548,281,582" href="../district-number.php?district=4">
+	<area shape="rect" coords="287,548,337,571" href="../district-number.php?district=4">
+	<area shape="rect" coords="349,546,390,566" href="../district-number.php?district=4">
+	<area shape="rect" coords="414,546,476,580" href="../district-number.php?district=4">
+	<area shape="rect" coords="390,548,412,652" href="../district-number.php?district=8">
+	<area shape="rect" coords="412,582,491,660" href="../district-number.php?district=8">
+	<area shape="rect" coords="478,549,486,580" href="../district-number.php?district=8">
+	<area shape="rect" coords="534,569,606,662" href="../district-number.php?district=8">
+	<area shape="rect" coords="608,615,619,655" href="../district-number.php?district=8">
+	<area shape="rect" coords="621,616,643,629" href="../district-number.php?district=8">
+	<area shape="rect" coords="621,631,650,675" href="../district-number.php?district=6">
+	<area shape="rect" coords="606,655,621,668" href="../district-number.php?district=6">
+	<area shape="rect" coords="650,658,657,699" href="../district-number.php?district=6">
+	<area shape="rect" coords="626,675,653,689" href="../district-number.php?district=6">
+	<area shape="rect" coords="660,678,694,706" href="../district-number.php?district=6">
+	<area shape="rect" coords="338,550,352,652" href="../district-number.php?district=8">
+	<area shape="rect" coords="353,567,390,651" href="../district-number.php?district=8">
+	<area shape="rect" coords="81,573,84,574" href="#">
+	<area shape="rect" coords="57,574,148,711" href="../district-number.php?district=7">
+	<area shape="rect" coords="149,594,340,648" href="../district-number.php?district=7">
+	<area shape="rect" coords="219,580,339,593" href="../district-number.php?district=7">
+	<area shape="rect" coords="281,570,340,581" href="../district-number.php?district=7">
+	<area shape="rect" coords="274,648,341,658" href="../district-number.php?district=7">
+	<area shape="rect" coords="119,712,255,722" href="../district-number.php?district=7">
+	<area shape="rect" coords="147,648,258,706" href="../district-number.php?district=7">
+	<area shape="rect" coords="149,705,258,714" href="../district-number.php?district=7">
+	<area shape="rect" coords="258,649,268,657" href="../district-number.php?district=7">
+	<area shape="rect" coords="291,659,429,693" href="../district-number.php?district=7">
+	<area shape="rect" coords="344,651,410,661" href="../district-number.php?district=7">
+	<area shape="rect" coords="429,658,487,735" href="../district-number.php?district=8">
+	<area shape="rect" coords="420,695,428,733" href="../district-number.php?district=8">
+	<area shape="rect" coords="487,687,497,739" href="../district-number.php?district=8">
+	<area shape="rect" coords="412,716,421,735" href="../district-number.php?district=8">
+	<area shape="rect" coords="507,516,542,538" href="../district-number.php?district=3">
+	<area shape="rect" coords="531,537,546,547" href="../district-number.php?district=3">
+	<area shape="rect" coords="539,549,567,569" href="../district-number.php?district=3">
+	<area shape="rect" coords="525,487,541,517" href="../district-number.php?district=3">
+	<area shape="rect" coords="518,499,527,514" href="../district-number.php?district=3">
+	<area shape="rect" coords="483,479,518,512" href="../district-number.php?district=4">
+	<area shape="rect" coords="489,510,506,535" href="../district-number.php?district=4">
+	<area shape="rect" coords="178,449,241,479" href="../district-number.php?district=5">
+	<area shape="rect" coords="387,311,453,357" href="../district-number.php?district=11">
+	<area shape="rect" coords="440,760,442,761" href="#">
+	<area shape="rect" coords="405,721,414,734" href="../district-number.php?district=8">
+	<area shape="rect" coords="455,733,487,740" href="../district-number.php?district=8">
+	<area shape="rect" coords="535,660,582,695" href="../district-number.php?district=8">
+	<area shape="rect" coords="546,695,585,709" href="../district-number.php?district=8">
+	<area shape="rect" coords="585,665,623,721" href="../district-number.php?district=5">
+	<area shape="rect" coords="562,709,583,721" href="../district-number.php?district=8">
+	<area shape="rect" coords="623,689,663,733" href="../district-number.php?district=6">
+	<area shape="rect" coords="594,723,631,787" href="../district-number.php?district=6">
+	<area shape="rect" coords="695,691,740,712" href="../district-number.php?district=6">
+	<area shape="rect" coords="664,706,730,799" href="../district-number.php?district=6">
+	<area shape="rect" coords="632,732,665,853" href="../district-number.php?district=6">
+	<area shape="rect" coords="665,799,701,862" href="../district-number.php?district=6">
+	<area shape="rect" coords="499,690,546,878" href="../district-number.php?district=6">
+	<area shape="rect" coords="545,708,563,884" href="../district-number.php?district=6">
+	<area shape="rect" coords="563,724,595,931" href="../district-number.php?district=6">
+	<area shape="rect" coords="596,788,633,847" href="../district-number.php?district=6">
+	<area shape="rect" coords="259,657,292,879" href="../district-number.php?district=20">
+	<area shape="rect" coords="296,694,357,866" href="../district-number.php?district=20">
+	<area shape="rect" coords="356,695,418,722" href="../district-number.php?district=7">
+	<area shape="rect" coords="358,724,406,766" href="../district-number.php?district=6">
+	<area shape="rect" coords="409,739,500,772" href="../district-number.php?district=6">
+	<area shape="rect" coords="373,766,407,797" href="../district-number.php?district=6">
+	<area shape="rect" coords="357,767,374,867" href="../district-number.php?district=20">
+	<area shape="rect" coords="407,774,501,819" href="../district-number.php?district=6">
+	<area shape="rect" coords="374,801,404,871" href="../district-number.php?district=20">
+	<area shape="rect" coords="403,816,427,841" href="../district-number.php?district=20">
+	<area shape="rect" coords="429,820,499,875" href="../district-number.php?district=6">
+	<area shape="rect" coords="406,840,427,870" href="../district-number.php?district=6">
+	<area shape="rect" coords="70,716,118,852" href="../district-number.php?district=20">
+	<area shape="rect" coords="63,718,73,776" href="../district-number.php?district=20">
+	<area shape="rect" coords="118,724,259,867" href="../district-number.php?district=20">
+	<area shape="rect" coords="76,146,91,191" href="../district-number.php?district=17">
+	<area shape="rect" coords="199,238,205,269" href="../district-number.php?district=9">
+	<area shape="rect" coords="123,141,230,150" href="../district-number.php?district=1">
+ </map>
 
-</body></html>
+</body>
+</html>

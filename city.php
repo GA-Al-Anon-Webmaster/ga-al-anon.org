@@ -278,6 +278,16 @@ function MM_swapImage() { //v3.0
               <strong><font color="#0033FF" size="3" face="Arial, Helvetica, sans-serif">
           All Georgia Al-Anon / Alateen Meetings by </font>
           <font face="Arial, Helvetica, sans-serif" color="#0033FF">City</font></strong></p>
+		  
+		  
+                                  <p align="center"><font color="#0033ff" face="Arial, Helvetica, sans-serif" size="4">
+<strong><font color="#cc0000">
+	AFG = Al-Anon Family Groups <br><br>
+	A "Closed" meeting is for anyone who is troubled by someone else's drinking. <br><br>
+	An "Open" meeting also welcomes guests, students, and interested professionals who want to learn by observing an Al-Anon meeting. Observers attending open Al-Anon meetings are requested to abide by the principles that guide participation in all Al-Anon Family Group meetings, most especially the principles of confidentiality and anonymity that protect its members.
+</font></strong></font></p>		  
+		  
+		  
             <p><font color="#0033FF" size="1" face="Arial, Helvetica, sans-serif"> 
               Note: * designates that an AA group meets at the same time.</font></p>
             <p><font color="#0033FF" size="1" face="Arial, Helvetica, sans-serif"><font color="#FF0000" size="4"></font></font></p>
@@ -318,7 +328,7 @@ function MM_swapImage() { //v3.0
     </td>
     <td>
     <div align="left">
-      <font face="Arial" size="2"><b>Zip</b></font></div>
+            <font face="Arial" color="blue" size="2"><b><a href="district_all-zip.php">Zip Code</a></b></font></div>
     </td>
 	<td valign="top"><font face="Arial" size="2"><b>Notes</b></font> 
       </td>

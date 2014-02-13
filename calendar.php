@@ -45,7 +45,17 @@ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async
 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';    
 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);  
 })();
+</script>
 
+<!--- to use the popup() function the link in the Event Description field has to include
+<a href="http://www.Foreign-URL" target="_blank" onClick="popup()">Anchor Text</a>
+ -->
+<script type="text/javascript">
+function popup() {
+   alert("You are leaving the Georgia Al-Anon/Alateen site. "
+       + "Our links do not imply endorsement or affiliation. "
+       + "Thank you for visiting us--we hope you have found the information you were seeking.");
+}
 </script>
 </head>
 	
@@ -56,8 +66,12 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 				
     <TD ALIGN="LEFT" VALIGN="TOP" WIDTH="18%"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
         <tr> 
-          <td width="32%" align="left" valign="top" bgcolor="#0033CC"><!-- #BeginLibraryItem "/Library/sidenavbar1.lbi" --><img src="images/sidnavbar1.png" alt="side navigation bar graphic" width="10" height="504"><!-- #EndLibraryItem --></td>
-          <td width="68%" align="left" valign="top" bgcolor="#0033CC"><!-- #BeginLibraryItem "/Library/sidenavbar2.lbi" -->
+          <td width="32%" align="left" valign="top" bgcolor="#0033CC">
+			  <!-- #BeginLibraryItem "/Library/sidenavbar1.lbi" -->
+			  <img src="images/sidnavbar1.png" alt="side navigation bar graphic" width="10" height="504">
+			  <!-- #EndLibraryItem --></td>
+          <td width="68%" align="left" valign="top" bgcolor="#0033CC">
+			  <!-- #BeginLibraryItem "/Library/sidenavbar2.lbi" -->
 
 
 <table border="0" cellpadding="0" cellspacing="0" width="116">
