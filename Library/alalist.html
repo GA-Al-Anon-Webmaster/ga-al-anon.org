@@ -44,6 +44,16 @@ function MM_swapImage() { //v3.0
  
 </script>
 
+<!--- to use the popup() function the link in the Event Description field has to include
+<a href="http://www.Foreign-URL" target="_blank" onClick="popup()">Anchor Text</a>
+ -->
+<script type="text/javascript">
+function popup() {
+   alert("You are leaving the Georgia Al-Anon/Alateen site. "
+       + "Our links do not imply endorsement or affiliation. "
+       + "Thank you for visiting us--we hope you have found the information you were seeking.");
+}
+</script>
 </HEAD>
 	
 <BODY BGCOLOR="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="MM_preloadImages('../images/sidenavbar2_r2_c2_over.gif','../images/sidenavbar2_r3_c2_over.gif','../images/sidenavbar2_r4_c2_over.gif','../images/sidenavbar2_r5_c2_over.gif','../images/sidenavbar2_r6_c2_over.gif','../images/sidenavbar2_r7_c2_over.gif','../images/sidenavbar2_r8_c2_over.gif','../images/sidenavbar2_r9_c2_over.gif','../images/sidenavbar2_r10_c2_over.gif','../images/sidenavbar2_r11_c2_over.gif','../images/sidenavbar2_r12_c2_over.gif','../images/sidenavbar2_r14_c2_over.gif','../images/topnavbar1_r2_c2_over.gif','../images/topnavbar1_r2_c4_over.gif','/images/topnavbar2_r2_c2_f2.gif','file:///C|/Documents and Settings/ChrisR/My Documents/Web Pages/Ga_Al-Anon/images/sidenavbar2_r2_c2_over.gif','file:///C|/Documents and Settings/ChrisR/My Documents/Web Pages/Ga_Al-Anon/images/sidenavbar2_r3_c2_over.gif','file:///C|/Documents and Settings/ChrisR/My Documents/Web Pages/Ga_Al-Anon/images/sidenavbar2_r4_c2_over.gif','file:///C|/Documents and Settings/ChrisR/My Documents/Web Pages/Ga_Al-Anon/images/sidenavbar2_r5_c2_over.gif','file:///C|/Documents and Settings/ChrisR/My Documents/Web Pages/Ga_Al-Anon/images/sidenavbar2_r6_c2_over.gif','file:///C|/Documents and Settings/ChrisR/My Documents/Web Pages/Ga_Al-Anon/images/sidenavbar2_r7_c2_over.gif','file:///C|/Documents and Settings/ChrisR/My Documents/Web Pages/Ga_Al-Anon/images/sidenavbar2_r8_c2_over.gif','file:///C|/Documents and Settings/ChrisR/My Documents/Web Pages/Ga_Al-Anon/images/sidenavbar2_r9_c2_over.gif','file:///C|/Documents and Settings/ChrisR/My Documents/Web Pages/Ga_Al-Anon/images/sidenavbar2_r10_c2_over.gif','file:///C|/Documents and Settings/ChrisR/My Documents/Web Pages/Ga_Al-Anon/images/sidenavbar2_r11_c2_over.gif','../images/sidenavbar2_r13_c2_over.gif','file:///C|/Documents and Settings/ChrisR/My Documents/Web Pages/Ga_Al-Anon/images/sidenavbar2_r14_c2_over.gif','../images/sidenavbar2_r16_c2_over.gif')">
@@ -1540,11 +1550,9 @@ function MM_swapImage() { //v3.0
                             literature requests to literature (at) ga-al-anon (dot) org<br>
                             </a></font><font size="3" face="Arial, Helvetica, sans-serif">or</font></p>
                           <ul>
-                            <li><font size="3" face="Arial, Helvetica, sans-serif">Mail 
-                              order request. Follow the instructions below.<br>
-                              1. <a href="../Area_Documents/2013-07_GA_CentralServices_OrderForm.pdf"> <font color="#FFFFFF">&nbsp;</font>Click 
-                              here</a> <font color="#FF9900"><strong>to view order 
-                              form</strong></font>.<br>
+                            <li><font size="3" face="Arial, Helvetica, sans-serif">Mail order request. Follow the instructions below.<br>
+							<font color="#000000">1.</font><font color="#FF9900">&nbsp; <strong>Save the
+                              <a href="/Library/download_file.php?file_source=../Area_Documents/2014-05_GA_CentralServices_OrderForm.pdf"> &nbsp;Literature order form</font></a> <font color="#FF9900"> on your computer</strong></font>.<br>
                               2.&nbsp; <font color="#FF9900"><strong>Print form.</strong></font><br>
                               3.&nbsp; <strong><font color="#FF9900">Mail form 
                               to: </font><font size="3" face="Arial, Helvetica, sans-serif"><font color="#000000"><strong>Georgia 
@@ -1565,7 +1573,7 @@ function MM_swapImage() { //v3.0
                               </font></strong></li>
                             <li><font size="3" face="Arial, Helvetica, sans-serif">Email order request using an order form. Follow the instructions below<br>
                               <font color="#000000">1.</font><font color="#FF9900">&nbsp; 
-                              <strong><a href="../Area_Documents/2013-07_GA_CentralServices_OrderForm.pdf">Click here</a> to download the order form.<br>
+                              <strong>Save the <a href="/Library/download_file.php?file_source=../Area_Documents/2014_01_GA_CentralServices_OrderForm.pdf">Literature order form</a> on your computer.<br>
                               </strong><font color="#000000">2.</font><strong><font color="#000000">&nbsp;&nbsp;</font>Fill out the entire order form.<br>
                               </strong><font color="#000000">3.</font><font color="#FFFFFF">&nbsp;</font><strong>Send e-mail to: literature (at) ga-al-anon (dot) org <br>
                               </strong><font color="#000000">4.</font><strong><font color="#000000">&nbsp; </font>Attach the order form into your email.<br>
@@ -1574,19 +1582,37 @@ function MM_swapImage() { //v3.0
                           <p>&nbsp;</p>
                           <blockquote> 
                             <p>&nbsp;</p>
-                            <p><font color="#000066"><strong>WSO Members website: www.al-anon.org/members</strong></font><br>
-                              <font color="#000000" size="2" face="Arial, Helvetica, sans-serif">Click here to view the <a href="http://www.al-anon.org/members">WSO Members website</a></font></p>
+                            <p><font color="#000066"><strong>WSO Members website</strong></font> </p>
+                            <p><font color="#000000" size="3" face="Arial, Helvetica, sans-serif">Website: 
+								<a href="http://www.al-anon.org/members" target="_blank" onClick="popup()">www.al-anon.org/members/</a></font></p>
                             </blockquote>
+							
                           <p><font size="3" face="Arial, Helvetica, sans-serif"><font color="#000000"><font size="6">*</font> 
                             AIS - Al-Anon Information Service<br>
                             <font size="6">*</font> LDC - Literature Distribution 
                             Center</font></font></p>
+							
+                            <P></P>
+                            <p>&nbsp;</p>
+                            <p><font size="3" face="Arial, Helvetica, sans-serif"><strong><font color="#000099">
+								 Metro Atlanta Al-Anon/Alateen Informaion Service (MAIS)
+							 </font></strong></font></p>
+                            <p><font face="Arial, Helvetica, sans-serif">
+  							  <strong> 
+                              Website: <a href="http://www.alanonatl.com/" target="_blank" onClick="popup()" > www.alanonatl.com/</a>
+  						</strong></font></p>
+                            <p><font size="3" face="Arial, Helvetica, sans-serif"><font color="#000000"><br>
+                              </font></font> </p>
+							
                           <P></P>
                           <p>&nbsp;</p>
-                          <p><font size="3" face="Arial, Helvetica, sans-serif"><font color="#000000"><strong><font color="#000099">Alcoholics 
-                            Anonymous</font> <font color="#000099">Meeting Information</font></strong></font></font></p>
-                          <p><font face="Arial, Helvetica, sans-serif"><strong> 
-                            Website: <a href="http://www.aageorgia.org/">www.aageorgia.org/</a></strong></font></p>
+                          <p><font size="3" face="Arial, Helvetica, sans-serif"><strong><font color="#000099">Alcoholics 
+                            Anonymous Meeting Information
+						</font></strong></font></p>
+                          <p><font face="Arial, Helvetica, sans-serif">
+							  <strong> 
+                            Website: <a href="http://www.aageorgia.org/" target="_blank" onClick="popup()">www.aageorgia.org/</a>
+						</strong></font></p>
                           <p><font size="3" face="Arial, Helvetica, sans-serif"><font color="#000000"><br>
                             </font></font> </p>
                           </TD>
