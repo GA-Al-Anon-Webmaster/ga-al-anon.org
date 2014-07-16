@@ -377,10 +377,7 @@ function MM_swapImage() { //v3.0
 	<font size="4"><em><strong><font color="#009900">Visit the<br> <a href="http://al-anon.org/local-meetings">
 World Service Office Meeting Locator</a></font></strong></em></font></font></font></p>
 
-                                      <p align="center"><font color="#0033ff" face="Arial, Helvetica, sans-serif" size="4"><font color="#cc0000"><font color="#009900" size="2"><em><strong><font color="#ff0000" size="4">Click 
-                                        here </font></strong></em></font><font color="#ff0000" size="4"><em><strong>to 
-                                        access <a href="https://chat.alateen.net/">GA Alateen Online AFG</a> </strong></em></font></font></font></p>
-                                      <p align="center"><font color="#0033ff" face="Arial, Helvetica, sans-serif" size="4"><strong><font color="#cc0000"><br>
+                                       <p align="center"><font color="#0033ff" face="Arial, Helvetica, sans-serif" size="4"><strong><font color="#cc0000"><br>
                                         </font><font size="2"> 
                                         This is <a href="../Area_Documents/2013.05.08_Group_Records_Flow_Chart_REV.pdf">how Group Records are updated</a></font></strong><font size="2"> in the Fellowship.</font></font><font color="#0033ff" face="Arial, Helvetica, sans-serif" size="2"><a href="mailto:areagrouprecords@ga-al-anon.org"></a> </font></p>
                                       <p align="center">&nbsp;</p>
