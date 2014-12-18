@@ -1,0 +1,35 @@
+body {
+ font-size: 10pt;
+ background-color: white;
+ color: black;
+}
+
+.fillout {
+ color: black;
+ border-width: 0;
+ border: 1px solid #000;
+ width: 300pt;
+}
+
+select {
+ display: none;
+}
+    
+.postselect {
+ display: block;
+ width: 300pt;
+ height: 1em;
+ border: none;
+ border-bottom: 1px solid #000;
+ }
+ 
+input[type="text"] {
+  color: black;
+  border-width: 0;
+  border: 1px solid #000;
+ }
+ input[type="submit"], select {
+  display: none;
+ }
+    
+ 

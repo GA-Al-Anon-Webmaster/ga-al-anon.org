@@ -450,9 +450,9 @@ World Service Office Meeting Locator</a></font></strong></em></font></font></fon
 	made by submitting the <a href="http://www.al-anon.org/members/pdf/GR1.pdf">Al-Anon Registration Group Records 
                               Change Form</a><br>
 								If you're not sure how to fill it in, the
-                              <a href="http://www.al-anon.org/members/pdf/GR1Instruct.pdf">Instructions</a> for the Group Records Registration Change Form may help.
+                              <a href="http://www.al-anon.org/members/pdf/GR1instructions.pdf">Instructions</a> for the Group Records Registration Change Form may help.
                               </strong></font><font color="#009900" face="Arial, Helvetica, sans-serif" size="2"><strong><br>And This Is 
-                              <a href="http://www.al-anon.org/members/pdf/StartingAlAnonENg.pdf">How to Start an Al-Anon Group</a> <br>
+                              <a href="http://www.al-anon.org/members/groups/new-group-registration-update/itemlist/category/44">How to Start an Al-Anon Group</a> <br>
                               </strong></font></p></td>
                         </tr>
                         <tr> 

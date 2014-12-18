@@ -243,7 +243,16 @@ function popup() {
             <p><font color="#FF0000" size="4" face="Arial, Helvetica, sans-serif">
 
             <table cellSpacing="1" cellPadding="2" border="1" id="table1">
-  <tr borderColor="#ffcc00" bgColor="#ffffcc">
+  <tr 
+  <?php
+  if ($bookmark != NULL) 
+  	{
+  	echo( "id=\"" );
+	echo( $bookmark ) ;
+	echo( "\" ") ;
+	} 
+  ?>
+  borderColor="#ffcc00" bgColor="#ffffcc">
     <td VALIGN="TOP" >
       <b><font face="Arial" size="2">Date</font></b>
     </td>
@@ -264,9 +273,18 @@ function popup() {
 				while ($row = mysql_fetch_array($results, MYSQL_ASSOC))  {
 					$description=$row["description"];
 					$date=$row["date"];
+					$bookmark=$row["bookmark"];
 				?>
 
-  <tr borderColor="#ffcc00" bgColor="#ffffcc">
+  <tr <?php
+  if ($bookmark != NULL) 
+  	{
+  	echo( "id=\"" );
+	echo( $bookmark ) ;
+	echo( "\" ") ;
+	} 
+  ?> borderColor="#ffcc00" bgColor="#ffffcc">
+  
     <td VALIGN="TOP">
       <font face="Arial" size="2"><?php echo $date; ?></font>
     </td>

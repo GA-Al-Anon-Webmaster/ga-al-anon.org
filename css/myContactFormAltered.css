@@ -1,0 +1,50 @@
+c_evenLines {
+      background-color: #FFFFFF;
+      border-bottom: 0px solid #D8D8D8;
+      padding: 5px;
+      clear: left;
+      margin: 0;
+}
+c_oddLines {
+      background-color: #EFEFEF;
+      border-bottom: 0px solid #D8D8D8;
+      padding: 5px;
+      clear: left;
+      margin: 0;
+}
+c_label {
+      float: left;
+      width: 30%;
+      padding-top: 4px;
+      font-family: Arial;
+      color: #000000;
+      font-size: 14px;
+}
+c_select {
+      font-family: Arial;
+      font-size: 14px;
+      color: #000000;
+      background-color: #FFFFFF;
+      border: 1px solid #000000;
+      padding: 2px;
+}
+c_textarea {
+      float: left;
+      width: 100%;
+      display: block;
+      padding-top: 4px;
+      font-family: Arial;
+      color: #000000;
+      font-size: 14px;
+}    
+a.help {
+    position: relative;
+    z-index: 24;
+    font-size: 0.7em;
+    font-weight: bold;
+    border: 1px solid #CCC;
+    background-color: #F8F8F8;
+    color: #333;
+    padding: 0.2em 0.5em;
+    font-family: Arial,Helvetica,sans-serif;
+}
