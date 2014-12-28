@@ -34,19 +34,19 @@ function MM_swapImage() { //v3.0
 //-->
 </script>
 
-<script type="text/javascript"> 
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-var _gaq = _gaq || [];  
-_gaq.push(['_setAccount', 'UA-37159622-1']);  
-_gaq.push(['_trackPageview']);  
-
-(function() {
-var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;    
-ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';    
-var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);  
-})();
+ga('create', 'UA-37159622-1', 'auto');  // Replace with your property ID.
+ga('send', 'pageview');
 
 </script>
+<!-- End Google Analytics -->
+
 </head>
 	
 <BODY BGCOLOR="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="MM_preloadImages('../../Ga_Al-Anon/Library/../images/sidenavbar2_r2_c2_f2.gif','../../Ga_Al-Anon/Library/../images/sidenavbar2_r2_c2_over.gif','../../Ga_Al-Anon/Library/../images/sidenavbar2_r3_c2_f2.gif','../../Ga_Al-Anon/Library/../images/sidenavbar2_r3_c2_over.gif','../../Ga_Al-Anon/Library/../images/sidenavbar2_r4_c2_f2.gif','../../Ga_Al-Anon/Library/../images/sidenavbar2_r4_c2_over.gif','../../Ga_Al-Anon/Library/../images/sidenavbar2_r5_c2_f2.gif','../../Ga_Al-Anon/Library/../images/sidenavbar2_r5_c2_over.gif','../../Ga_Al-Anon/Library/../images/sidenavbar2_r6_c2_f2.gif','../../Ga_Al-Anon/Library/../images/sidenavbar2_r6_c2_over.gif','../../Ga_Al-Anon/Library/../images/sidenavbar2_r7_c2_f2.gif','../../Ga_Al-Anon/Library/../images/sidenavbar2_r7_c2_over.gif','../../Ga_Al-Anon/Library/../images/sidenavbar2_r8_c2_f2.gif','../../Ga_Al-Anon/Library/../images/sidenavbar2_r8_c2_over.gif','../../Ga_Al-Anon/Library/../images/sidenavbar2_r9_c2_f2.gif','../../Ga_Al-Anon/Library/../images/sidenavbar2_r9_c2_over.gif','../../Ga_Al-Anon/Library/../images/sidenavbar2_r10_c2_f2.gif','../../Ga_Al-Anon/Library/../images/sidenavbar2_r10_c2_over.gif','../../Ga_Al-Anon/Library/../images/sidenavbar2_r11_c2_f2.gif','../../Ga_Al-Anon/Library/../images/sidenavbar2_r11_c2_over.gif')">
