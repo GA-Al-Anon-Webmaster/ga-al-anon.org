@@ -1,3 +1,6 @@
 /* This is a custom CSS Stylesheet */
 
-body { padding-top: 70px; }
+/* body { padding-top: 70px; } */
+.navbar-static-top {
+    min-height: 140px;
+}
